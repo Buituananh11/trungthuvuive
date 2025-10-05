@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trung thu vui vẻ</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Ẩn thanh cuộn */
+        }
+        video {
+            width: 100vw; /* Chiều rộng toàn màn hình */
+            height: 100vh; /* Chiều cao toàn màn hình */
+            object-fit: cover; /* Đảm bảo video lấp đầy mà không bị méo */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <video controls autoplay>
+        <source src="thuong.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
